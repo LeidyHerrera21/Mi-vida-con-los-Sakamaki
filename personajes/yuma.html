@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuma Mukami - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #AA5B61;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/0b/64/fb/0b64fb4e9b436ef5b394d5ab495344cd.jpg" alt="Ivi">
+
+  <h2>Yuma Mukami</h2>
+
+  <p><strong>Edad:</strong> 18 años</p>
+  <p><strong>Estatura:</strong> 1.90 m</p>
+  <p><strong>Cumpleaños:</strong> 23 de Julio</p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello castaño oscuro, rebelde y despeinado.<br>
+    ✞︎ Ojos ámbar/dorados, intensos y salvajes.<br>
+    ✞︎ Lleva un vendaje en la mano.<br>
+    ✞︎ Cicatrices leves por trabajos pesados cuando era humano.<br>
+    ✞︎ Complexión musculosa, brazos muy fuertes por su vida en el orfanato.<br>
+    ✞︎ Expresión desafiante con sonrisa burlona.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Fuerte, impulsivo, directo y un poco agresivo en la superficie.<br>
+    ✞︎ Tiene un corazón gigantesco, aunque lo oculta tras gritos y gruñidos.<br>
+    ✞︎ Leal, protector y trabajador.<br>
+    ✞︎ Se enoja rápido, pero también se calma rápido con la gente que quiere.<br>
+    ✞︎ Valora la sinceridad y odia las mentiras.<br>
+    ✞︎ Es el primero en defender a los débiles, aunque lo niegue.<br>
+    ✞︎ Con Emma es: Sobreprotector, Celoso, Brutalmente honesto, Muy cariñoso, aunque de forma ruda. </p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Era miembro de una banda de huérfanos antes de la tragedia.<br>
+     ✞︎ Suele actuar antes de pensar, pero nunca actúa con mala intención.<br>
+     ✞︎ Tiene una conexión emocional profunda con la tierra.<br>
+     ✞︎ Grita mucho, pero llora en silencio.<br>
+     ✞︎ Puede cargar cosas que nadie más puede.<br>
+     ✞︎ Con Emma: La levanta en brazos sin esfuerzo, Le regala verduras de su huerto, Se convierte en su guardián personal </p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Biológicos: Murieron en un incendio.✞︎ <br>
+       ✞︎ Fue adoptado y transformado por Karlheinz.</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎ Ruki Mukami  ✞︎ Yuma Mukami  ✞︎  Azusa Mukami<br>
+       ✞︎  Emma Mukami<br>
+       Es la ùnica que puede calmarlo cuando esta furioso, Golpea a quien la mire mal, La trata como a una niña preciosa, aunque ella no lo se, Le dice "Pequeña, si alguien te hace llorar, me lo dices."</p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Ninguna</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Fuerza física superior (es de los vampiros más fuertes).<br>
+     ✞︎ Agricultura y trabajo manual: tiene un talento natural para la tierra. <br>
+     ✞︎ Puede usar herramientas como armas.<br>
+     ✞︎  Alto nivel de resistencia al dolor.<br>
+     ✞︎ Sentido del olfato muy sensible.</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎  Sus colmillos generan una sensación caliente, intensa y dominante.<br>
+    ✞︎ Puede generar poderosas ráfagas al golpear.<br>
+    ✞︎ Control superior de energía física brute force.<br>
+    ✞︎ Instinto animal muy desarrollado. </p>
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎  Ropa estilo callejera: Camisetas sin mangas, Pantalones desgastados, Botas duras  <br>
+    ✞︎ Banda o pañuelo en la cabeza a veces <br>
+    ✞︎ Chaquetas abiertas<br>
+    ✞︎ Guantes sin dedos<br>
+    ✞︎ Su ropa suele verse ruda, resistente y útil para el trabajo</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎  Verduras frescas de su huerto<br>
+    ✞︎ Guisos calientes, sopas espesas <br>
+    ✞︎ Pan casero<br>
+    ✞︎ Le gusta cocinar para Emma: sopas y vegetales dulces<br>
+    ✞︎ Comida simple y abundante</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎  Comidas muy finas, "de rico"<br>
+    ✞︎  Platos pequeños y delicados (los llama “porción de pajarito”)<br>
+    ✞︎ Dulces demasiado empalagosos<br>
+    ✞︎ Sushi<br>
+    ✞︎ Comidas "falsas" o artificiales</p>
+
+  <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Trabajar la tierra<br>
+     ✞︎ Gente honesta<br>
+     ✞︎  Pelear amistosamente<br>
+     ✞︎  Animales<br>
+     ✞︎ El viento y la libertad<br>
+     ✞︎ Proteger a los suyos<br>
+     ✞︎ Escuchar las historias de Emma<br>
+     ✞︎ Cargar a Emma sin razón solo por molestar</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ Las mentiras<br>
+     ✞︎ La gente arrogante<br>
+     ✞︎ Que lo traten como bruto<br>
+     ✞︎ Las injusticias<br>
+     ✞︎ Que toquen su huerto<br>
+     ✞︎ Cuando alguien hace llorar a Emma<br>
+     ✞︎ Ver a Azusa herido</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ Honestidad cruda<br>
+     ✞︎ Valentía<br>
+     ✞︎ Personas trabajadoras<br>
+     ✞︎ Alguien que sabe defenderse<br>
+     ✞︎ Gente con carácter fuerte<br>
+     ✞︎ Le encanta la gente directa que no finge</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Hipocresía<br>
+     ✞︎ Actitudes “falsas” o exageradas<br>
+     ✞︎ Riqueza mal usada<br>
+     ✞︎ Personas que se creen superiores<br>
+     ✞︎ Hombres que se acerquen demasiado a Emma<br>
+     ✞︎ Insultos pasivo-agresivos</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> La más rústica de todas, Muebles de madera gruesa y sin adornos, Tiene plantas vivas dentro (macetas y pequeñas hortalizas), Pesas hechas por él mismo.<br>
+    Sábanas marrones y manta gruesa. Ventana siempre abierta para que entre aire, Franco olor a tierra, madera y hojas frescas. <br>
+    Objetos personales simples: Herramientas Un cuchillo hecho a mano Una foto con sus hermanos<br>
+    Tiene un rincón donde Emma puede sentarse a conversar con él mientras trabaja.</p>
+
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

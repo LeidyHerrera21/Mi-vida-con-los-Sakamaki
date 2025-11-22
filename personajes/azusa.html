@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Azusa Mukami - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #876283;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/42/ff/11/42ff11e2d967f13519312bdde9bc79d9.jpg" alt="Ivi">
+
+  <h2>Azusa Mukami</h2>
+
+  <p><strong>Edad:</strong>  16 años</p>
+  <p><strong>Estatura:</strong> 1.68 m</p>
+  <p><strong>Cumpleaños:</strong> 28 de Octubre</p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello negro, desordenado, cortado en mechones.<br>
+    ✞︎ Ojos gris violáceo, apagados y melancólicos.<br>
+    ✞︎ Piel muy pálida, de aspecto frágil.<br>
+    ✞︎ Viste con vendas, parches y ropa oscura.<br>
+    ✞︎ Posee cortes cicatrizados por su pasado.<br>
+    ✞︎ Mirada perdida, pero llena de afecto cuando ve a Emma.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Suave, dulce, muy sensible.<br>
+    ✞︎ Tiene una visión distorsionada del dolor: lo asocia con “sentirse vivo”.<br>
+    ✞︎ Necesita contacto emocional, cariño y validación.<br>
+    ✞︎ Habla lento, en voz baja, a veces entrecortada.<br>
+    ✞︎ A pesar de su fragilidad, tiene un corazón inmenso.<br>
+    ✞︎ Le cuesta socializar y teme ser rechazado.<br>
+    ✞︎ Con Emma es más valiente, más seguro, más luminoso.<br>
+    ✞︎ La quiere como si fuera luz entre su oscuridad.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Tiene una dependencia emocional fuerte, pero con Emma es más sana.<br>
+     ✞︎ Da cariño con abrazos suaves y contacto físico dulce.<br>
+     ✞︎ Coloca nombres a sus armas (tijeras, cuchillos).<br>
+     ✞︎ Sufrió maltrato extremo cuando era humano, por lo que asocia el dolor con afecto.<br>
+     ✞︎ Ama escuchar la voz de Emma; dice que lo “cura”.<br>
+     ✞︎ Aunque parece débil, puede volverse brutalmente peligroso si alguien lastima a Emma o a sus hermanos.</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Biológicos: Desconocidos, murió en un ambiente abusivo. ✞︎ <br>
+       ✞︎ Adoptado y convertido por Karlheinz. </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎ Ruki Mukami  ✞︎ Yuma Mukami  ✞︎  Ruki Mukami<br>
+       ✞︎  Emma Mukami<br>
+       La adora profundamente, La abraza por la espalda cuando está triste, Le regala objetos hechos a mano (collares, muñecos), Cree que Emma es su “hermana perfecta”, Si alguien la insulta, Azusa pierde totalmente el control.</p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p>Ninguna</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Puede seguir peleando incluso con heridas graves.<br>
+     ✞︎ Es increíblemente silencioso; nadie lo oye entrar. <br>
+     ✞︎ Altísima resistencia al dolor.<br>
+     ✞︎ Su sentido del dolor le permite detectar peligros (presiones, fondos energéticos).<br>
+     ✞︎ Maneja armas pequeñas con precisión (cuchillos, tijeras).</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎  Intuición emocional fuerte: detecta tristeza, miedo o angustia.<br>
+    ✞︎  Puede desvanecerse entre sombras si está lo suficientemente herido o debilitado.<br>
+    ✞︎ Sus colmillos provocan una mezcla de calma y estremecimiento profundo. <br>
+    ✞︎ Regeneración sorprendente.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Ropa oscura, holgada y desgastada. <br>
+    ✞︎ Vendas alrededor de brazos, cuello y piernas.<br>
+    ✞︎ Botas pesadas.<br>
+    ✞︎ Siempre lleva consigo tijeras o una navaja pequeña.<br>
+    ✞︎ Accesorios simples como collares hechos a mano.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Té tibio <br>
+    ✞︎ Comida casera simple<br>
+    ✞︎ Le encanta cuando Emma cocina algo para él.<br>
+    ✞︎ Dulces suaves, sobre todo: Pastel de vainilla, Postres esponjosos</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p> ✞︎  Platos muy picantes<br>
+    ✞︎ Comida que huele demasiado fuerte <br>
+    ✞︎ Comidas demasiado duras o difíciles de masticar<br>
+    ✞︎ Carne muy cruda</p>
+
+  <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ Escuchar música suave<br>
+     ✞︎ Ser abrazado<br>
+     ✞︎  Dormir cerca de alguien que quiere<br>
+     ✞︎ Las manos de Emma (dice que son “cálidas”) <br>
+     ✞︎ Objetos pequeños o delicados<br>
+     ✞︎ Los atardeceres nublados<br>
+     ✞︎ Cantar muy suave, casi como un susurro</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ Personas que gritan<br>
+     ✞︎ Ser ignorado<br>
+     ✞︎ El rechazo<br>
+     ✞︎ El abandono<br>
+     ✞︎ Violencia excesiva innecesaria<br>
+     ✞︎ Cuando Yuma discute muy fuerte <br>
+     ✞︎ Ver llorar a Emma</p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ Dulzura genuina<br>
+     ✞︎ Personas tranquilas<br>
+     ✞︎ Gente que lo trata con ternura<br>
+     ✞︎ La paciencia<br>
+     ✞︎ Quienes lo escuchan sin juzgar<br>
+     ✞︎ Personalidades empáticas</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Crueldad sin sentido<br>
+     ✞︎ Burla hacia sus cicatrices <br>
+     ✞︎ Personas arrogantes<br>
+     ✞︎ Gente que da órdenes con violencia<br>
+     ✞︎ Maltrato (físico o emocional)<br>
+     ✞︎ Cualquiera que haga daño a Emma: los considera “monstruos”</p>
+
+  <!-- Habitación -->
+  <h3 class="section-title">Su habitación en la mansión</h3>
+  <p> La más oscura y silenciosa, Colores: negro, gris, lila muy suave, Colchón blando y muchas mantas.<br>
+    Muñecos hechos por él (algunos torcidos, otros tiernos), Vendas limpias en un cajón especial, Velas aromáticas suaves.<br>
+    Paredes decoradas con: pequeñas fotos familiares, dibujos simples hechos por Emma.<br>
+    Una esquina con cojines donde se acurruca, Su habitación siempre tiene una atmósfera melancólica y tranquila.</p>
+</div>
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>

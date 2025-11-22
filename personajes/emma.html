@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emma Mukami - Mi Vida con los Sakamaki</title> 
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="vida.jpg">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #120a0a 40%, #0a0303 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.character-container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(40, 20, 20, 0.7);
+  border: 1px solid #ffb6b6;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 0 20px #ffb6b6;
+}
+
+.character-container img {
+  width: 230px;
+  border-radius: 12px;
+  border: 1px solid #B2000E;
+  margin-bottom: 20px;
+}
+
+.character-container h2 {
+  text-shadow: 0 0 15px #ffc4c4;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+  color: #ffb6b6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #ffb6b6;
+  text-align: left;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffb6b6;
+  border-radius: 8px;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(5px);
+}
+.info-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los cuadros al ajustarse */
+}
+
+.info-box {
+  flex: 1;
+  min-width: 260px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.section-title {
+  margin-top: 0;
+  color: #ff4d4d;
+  text-shadow: 0 0 6px #ff1a1a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 📱 RESPONSIVE para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-box {
+    max-width: 100%;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="back-button" onclick="goBack()">← Volver</button>
+
+<div class="character-container">
+  <img src="https://i.pinimg.com/736x/08/9e/81/089e8168430451c15c8820949ffedff8.jpg" alt="Ivi">
+
+  <h2>Emma Mukami</h2>
+
+  <p><strong>Edad:</strong>  17 años</p>
+  <p><strong>Estatura:</strong> 1.63 m </p>
+  <p><strong>Cumpleaños:</strong> 23 de Enero </p>
+
+  <!-- Apariencia -->
+  <h3 class="section-title">Apariencia</h3>
+  <p>✞︎ Cabello: Blanco nieve, largo y sedoso, ligeramente ondulado en las puntas.<br>
+     ✞︎ Ojos: Rojos intensos, brillan más cuando usa sus poderes.<br>
+     ✞︎  Piel: Pálida y suave, típica de los pura sangre.<br>
+     ✞︎  Rasgos: Mirada profunda, expresión generalmente tranquila pero intimidante cuando se enoja.<br>
+     ✞︎ Aura: Fría, elegante y misteriosa.</p>
+
+  <!-- Personalidad -->
+  <h3 class="section-title">Personalidad</h3>
+  <p>✞︎ Amable solo con quienes ama.<br>
+     ✞︎ Algo orgullosa, como toda sangre pura.<br>
+     ✞︎ Muy inteligente y analítica.<br>
+          ✞︎ Odia admitir sus miedos y debilidades.<br>
+     ✞︎ Es difícil que confíe en alguien, pero una vez que lo hace, es leal.<br>
+     ✞︎ Se enoja fácilmente si lastiman a Ayato o a sus hermanos adoptivos.<br>
+      ✞︎ Protectora con quienes considera familia.<br>
+     ✞︎ Suele ser tranquila, pero en batalla muestra un lado feroz.</p>
+
+  <!-- Características -->
+  <h3 class="section-title">Características</h3>
+  <p>✞︎ Sentidos extrasensibles (vista y oído muy potentes).<br>
+     ✞︎ Mente estratégica, analiza todo antes de actuar.<br>
+     ✞︎ Resistencia a las heridas profundas.<br>
+     ✞︎ Instinto protector muy marcado.<br>
+     ✞︎ Velocidad sobrehumana (una de las más rápidas entre vampiros).<br>
+     ✞︎ Celosa en silencio.<br>
+     ✞︎ Lealtad absoluta a sus seres queridos.<br>
+     ✞︎ Control emocional fuerte (cuando no está Ayato de por medio).<br>
+     ✞︎ Memoria perfecta.<br>
+     ✞︎ Resistencia física alta.<br>
+     ✞︎ Gran agilidad y movilidad.</p>
+
+   <!-- Familia -->
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Padres</h3>
+    <p> Padre: Alexander Clark (fallecido en un incendio) ✞︎ <br>
+       ✞︎ Madre: Fiona Clark (muerte por causa desconocida)
+    </p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Hermanos</h3>
+    <p>✞︎  Hermano biológico: Ethan Clark (desaparecido)<br>
+       ✞︎  Ruki Mukami<br>
+       ✞︎  Yuma Mukami<br>
+       ✞︎  Kou Mukami<br>
+       ✞︎  Azusa Mukami </p>
+  </div>
+</div>
+
+  <!-- Pareja -->
+  <h3 class="section-title">Pareja</h3>
+  <p> ✞︎ Ayato Sakamaki<br>
+      Ayato está obsesivamente enamorado de ella.<br>
+       Emma lo equilibra: lo calma, pero también lo reta.<br>
+      Se molestan jugando, compiten y se muerden mutuamente.<br>
+      Él la entrenó en esgrima y combate.<br>
+      Ella es la única que Ayato realmente respeta y escucha.</p>
+
+  <!-- Habilidades -->
+  <h3 class="section-title">Habilidades</h3>
+  <p>✞︎ Lectura de mentes/pensamientos<br>
+     ✞︎ Fuerza notable<br>
+     ✞︎ Regeneración avanzada<br>
+     ✞︎  Gran velocidad (una de las más rápidas entre los vampiros)<br>
+     ✞︎  Control emocional avanzado (puede ocultar su aura)<br>
+     ✞︎ Domina cuchillos y combate estilo Mukami<br>
+     ✞︎ Resistencia al dolor alta<br>
+     ✞︎ Experta en esgrima (entrenada por Ayato)</p>
+
+  <!-- Poder -->
+  <h3 class="section-title">Poder</h3>
+  <p>✞︎ Emociones profundas<br>
+     ✞︎ Pensamientos superficiales<br>
+     ✞︎  Emociones reprimidas<br>
+     ✞︎  Intenciones<br>
+     ✞︎ Es más rápida que la mayoría de vampiros, incluso algunos sangre pura.<br>
+     ✞︎ Restaura energía, Ayato es el único que la recibe voluntariamente<br>
+     ✞︎ Puede influir sutilmente en decisiones o emociones si la persona es débil o está nerviosa.</p>
+
+  <!-- Vestimenta -->
+  <h3 class="section-title">Vestimenta</h3>
+  <p>✞︎ Emma tiene dos estilos, dependiendo de la mansión o del humor del día.<br>
+     ✞︎ Vestidos blancos o crema, sueltos y elegantes.<br>
+     ✞︎  Suéteres suaves de lana ligera.<br>
+     ✞︎ Falda larga dorada o beige claro. <br>
+     ✞︎ Zapatillas o tacones dorados. <br>
+     ✞︎ Peinados más sueltos y tranquilos.<br>
+    ✞︎ Joyas de plata y rojo profundo. <br>
+     ✞︎ Accesorios delicados y brillantes.</p>
+
+  <!-- Comidas -->
+  <h3 class="section-title">Comida favorita</h3>
+  <p>✞︎ Takoyaki<br>
+     ✞︎ Helado <br>
+     ✞︎ Postres en general</p>
+
+  <h3 class="section-title">Comida que no le gusta</h3>
+  <p>✞︎ Cosas muy saladas<br>
+     ✞︎ Pescado crudo<br>
+     ✞︎ Comida demasiado picante</p>
+
+  <!-- Gustos y disgustos -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Gustos</h3>
+  <p>✞︎ El vino<br>
+     ✞︎ El helado<br>
+     ✞︎ Los dulces <br>
+     ✞︎  Las rosas de cualquier color<br>
+     ✞︎ La música suave<br>
+     ✞︎ El takoyaki<br>
+        ✞︎ Los días fríos<br>
+     ✞︎ Dormir abrazada a Ayato</p>
+  </div>
+
+  <div class="info-box">
+    <h3 class="section-title">Disgustos</h3>
+  <p>✞︎ Ser traicionada o manipulada. <br>
+     ✞︎  Que Ayato la ignore cuando está celoso o molesto.<br>
+     ✞︎   Las discusiones sin sentido.<br>
+      ✞︎  Aquellos que no saben respetar límites. <br>
+       ✞︎   Deslealtad<br>
+        ✞︎  Olor a humo o fuego fuerte (despierta su trauma). <br>
+     ✞︎  Que le digan “débil” por tener miedos.<br>
+     ✞︎ Los que se burlan de los Mukami o Ayato. </p>
+  </div>
+</div>
+
+  <!-- Gente -->
+
+  <div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Qué le gusta de la gente</h3>
+  <p> ✞︎ La sinceridad<br>
+     ✞︎ La lealtad<br>
+     ✞︎ La valentía<br>
+     ✞︎ Quienes no le temen pero tampoco la adoran<br>
+     ✞︎ Quienes respetan su espacio</p>
+
+  <h3 class="section-title">Qué no le gusta de la gente</h3>
+  <p>✞︎ Las mentiras<br>
+     ✞︎ La traición<br>
+     ✞︎ Las personas ruidosas<br>
+     ✞︎ Ser subestimada<br>
+     ✞︎ Que la comparen con los Sakamaki o con su clan</p>
+
+     <h3 class="section-title">Miedos y Debilidades</h3>
+  <p>✞︎ No sabe nadar<br>
+     ✞︎ Miedo al fuego (trauma por la muerte de su padre)<br>
+     ✞︎ Culpa por la extinción de su clan<br>
+     ✞︎ Miedo a perder a Ayato o a Ethan</p>
+
+  <!-- Habitación -->
+<div class="info-container">
+  <div class="info-box">
+    <h3 class="section-title">Su habitación en la Mansión Mukami</h3>
+  <p> Tonos blanco y dorado.<br>
+       Más luminosa, ordenada y elegante.<br>
+       Cama de dosel con telas suaves.<br>
+       Mesa pequeña llena de dulces que Kou le compra.<br>
+        Yuma le hizo un mueble de madera a mano.<br>
+         Azusa le dejó una cajita con cuchillas decorativas (como regalo).<br>
+ Ruki mantiene el orden y le compra libros para fortalecer su poder mental.</p>
+
+  </div>
+
+  <div class="info-box">
+   <h3 class="section-title">Su habitación en la Mansión Sakamaki</h3>
+  <p> Ubicada junto a la habitación de Ayato.<br>
+       Tonos oscuros, plateados, negro y gris metálico.<br>
+       Ventanas con cortinas pesadas.<br>
+       Cama amplia con sábanas frías.<br>
+       Estantes con armas, cuchillos y una katana que Ayato le regaló. <br>
+       Rosas negras en un jarrón (regalos de Ayato).<br>
+       Iluminación tenue.<br>
+ Perfume a vino rosado y madera.</p>
+</div>
+
+
+
+
+<script>
+function goBack() {
+  window.location.href = "../index.html";
+}
+</script>
+
+</body>
+</html>
