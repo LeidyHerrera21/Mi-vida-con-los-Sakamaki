@@ -114,26 +114,7 @@ Bienvenido al repositorio de la **Enciclopedia Gótica**, una base de datos web 
 
 Este proyecto se enfoca en presentar información rica y detallada sobre las principales mansiones y la vida en la Academia Ryoutei, todo con una inmersiva estética oscura, construida usando **HTML y CSS puro**.
 
-
-
 ---
-
-## 🚀 Empezando
-
-Sigue estas sencillas instrucciones para ver el proyecto en tu navegador local.
-
-### Prerrequisitos
-
-* Un **navegador web moderno** (Chrome, Firefox, Edge, Safari).
-* No se requiere servidor web ni dependencias externas.
-
-### Instalación y Ejecución
-
-1.  **Descarga/Clona:** Obtén una copia de este repositorio.
-    ```bash
-    git clone [https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories](https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories)
-    ```
-2.  **Abre los archivos:** Navega al directorio del proyecto y abre cualquier archivo `.html` directamente en tu navegador.
 
     * `sakamaki.html`: Información sobre la Mansión Sakamaki.
     * `mukami.html`: Información sobre la Mansión Mukami.
