@@ -10,26 +10,6 @@ Este proyecto está construido utilizando **HTML, CSS y JavaScript** y sigue una
 
 ## 🚀 Empezando
 
-Sigue estas instrucciones para ejecutar el proyecto en tu entorno local.
-
-### Prerrequisitos
-
-* Un **navegador web moderno** (Chrome, Firefox, Edge, Safari).
-
-### Instalación y Ejecución
-
-1.  **Clonar el Repositorio:**
-    ```bash
-    git clone [https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories](https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories)
-    ```
-2.  **Navegar al Directorio:**
-    ```bash
-    cd [nombre-del-proyecto]
-    ```
-3.  **Abrir en el Navegador:** Simplemente abre el archivo `index.html` en tu navegador.
-
-    > **Nota:** No se requiere ningún servidor web para la ejecución local, ya que no utiliza llamadas a APIs externas.
-
 ---
 
 ## 📁 Estructura del Proyecto
